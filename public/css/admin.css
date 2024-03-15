@@ -1,0 +1,86 @@
+/* Customize the sidebar */
+.sidebar {
+    width: 200px;
+    height: 600px; 
+}
+
+/* Change the color of the links */
+.nav-link {
+    color: #ffffff; 
+}
+
+/* Change the color of the links on hover */
+.nav-link:hover {
+    color: #ff9800; 
+}
+
+/* Change the color of the active link */
+.nav-link.active {
+    color: #ff5722; 
+}
+
+.admin-name {
+    font-size: 18px;
+    color: white;
+}
+
+
+.fixed-sidebar {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}
+
+
+.banner-card {
+    background-color: #f8f9fa; 
+    border: 2px solid #dee2e6; 
+    border-radius: 20px; /* Rounded corners */
+    margin: 0 -250px; 
+}
+
+
+.banner-title {
+    color: #009688; /* Blue text color */
+    font-weight: bold; /* Bold font weight */
+    padding: 20px 0; /* Vertical padding */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.banner-section {
+    position: fixed;
+    top: 70px; /* Adjust according to your header height */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content{
+    margin-top: 250px;
+}
+
+/* Fixed header */
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Fixed left navigation */
+.fixed-sidebar {
+    position: fixed;
+    top: 70px; /* Adjust according to your header height */
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}

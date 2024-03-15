@@ -1,0 +1,115 @@
+/* Customize the sidebar */
+.sidebar {
+    width: 200px;
+    height: 600px; 
+}
+
+/* Change the color of the links */
+.nav-link {
+    color: #ffffff; /* White text color */
+}
+
+/* Change the color of the links on hover */
+.nav-link:hover {
+    color: #ff9800; /* Orange text color */
+}
+
+/* Change the color of the active link */
+.nav-link.active {
+    color: #ff5722; /* Deep orange text color */
+}
+
+.admin-name {
+    font-size: 18px;
+    color: white;
+}
+
+
+.fixed-sidebar {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}
+
+
+.banner-card {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 2px solid #dee2e6; /* Gray border */
+    border-radius: 20px; /* Rounded corners */
+    margin: 0 -350px; /* Increase negative margin to extend the border */
+    width: calc(230% - 480px);
+}
+
+
+.banner-title {
+    color: #009688; /* Blue text color */
+    font-weight: bold; /* Bold font weight */
+    padding: 20px 0; /* Vertical padding */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.banner-section {
+    position: fixed;
+    top: 70px; /* Adjust according to your header height */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content{
+    margin-top: 250px;
+}
+
+.job-card {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 20px; /* Add some margin between cards */
+}
+
+.job-title {
+    color: #009688; /* Green text color */
+    font-size: 18px; /* Set the font size */
+    font-weight: bold; /* Set font weight to bold */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+.job-description {
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Set the font size */
+    line-height: 1.6; /* Set the line height for better readability */
+}
+
+
+.container-fluid.mt-4 {
+    margin-top: 160px;
+    width: calc(100% - 350px); 
+}
+
+
+/* Fixed header */
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Fixed left navigation */
+.fixed-sidebar {
+    position: fixed;
+    top: 70px; /* Adjust according to your header height */
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}
